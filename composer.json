@@ -1,0 +1,16 @@
+{
+    "name": "mickaelandrieu/welcome-bot",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Mickaël Andrieu",
+        "email": "andrieu.travail@gmail.com"
+    }
+    ],
+    "type": "project",
+    "require": {
+        "php": ">=5.6",
+        "lp-digital/github-event-parser": "~0.8",
+        "knplabs/github-api": "^1.7"
+    }
+}
