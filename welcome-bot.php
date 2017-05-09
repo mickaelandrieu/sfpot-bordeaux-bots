@@ -43,7 +43,7 @@ function isValid($event)
     if ($event instanceof ActionableEventInterface) {
          if (
                 in_array($event::name(), ['IssuesEvent', 'PullRequestEvent'])
-                && 'opened' == $event->action
+                && 'opened' == $event->getAction()
              ){
                  return true;
              }
